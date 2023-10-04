@@ -1,0 +1,176 @@
+TimeStamp,Speaker,Text,Start,End,Label
+"['0:0:0.0', '0:0:0.310']","Sorelle, Richard P. (HOU)",Yeah.,0:0:0.0,0:0:0.310,0
+"['0:0:0.320', '0:0:14.40']","Sorelle, Richard P. (HOU)","So like I said, we convert the line breaks to to tabs, select all the tasks, go to convert text to table and then we can do this and use tab to separate the text and then we get the table.",0:0:0.320,0:0:14.40,0
+"['0:0:15.320', '0:0:15.570']","Hoang, Nick Vu",Umm.,0:0:15.320,0:0:15.570,1
+"['0:0:14.980', '0:0:17.700']","Sorelle, Richard P. (HOU)",Umm so I'm I'm gonna go ahead and close out of this case.,0:0:14.980,0:0:17.700,0
+"['0:0:17.710', '0:0:29.140']","Sorelle, Richard P. (HOU)","I already did that in another another file, but let's let's not savable go to the table alright, so here's what it looks like in the table right is.",0:0:17.710,0:0:29.140,0
+"['0:0:29.890', '0:0:30.170']","Hoang, Nick Vu",OK.,0:0:29.890,0:0:30.170,1
+"['0:0:32.220', '0:0:36.390']","Sorelle, Richard P. (HOU)","You know timestamp, speaker and then the text and this is.",0:0:32.220,0:0:36.390,0
+"['0:0:38.890', '0:0:41.110']","Sorelle, Richard P. (HOU)",Then we can we can take that into.,0:0:38.890,0:0:41.110,0
+"['0:0:43.460', '0:0:44.750']","Hoang, Nick Vu",Excel OK.,0:0:43.460,0:0:44.750,1
+"['0:0:44.190', '0:0:49.780']","Sorelle, Richard P. (HOU)","And jacksel, which at least you know not automating everything is.",0:0:44.190,0:0:49.780,0
+"['0:0:49.790', '0:0:51.610']","Sorelle, Richard P. (HOU)","It's easier to to mess with, right?",0:0:49.790,0:0:51.610,0
+"['0:0:52.560', '0:0:53.10']","Hoang, Nick Vu",Umm.,0:0:52.560,0:0:53.10,1
+"['0:0:52.90', '0:1:4.980']","Sorelle, Richard P. (HOU)","So the first thing I do is I just create a marker right that that says OK, so this this is just a 0 for to start but it says if the last one is the same as this one.",0:0:52.90,0:1:4.980,0
+"['0:1:16.500', '0:1:16.730']","Hoang, Nick Vu",Mm-hmm.,0:1:16.500,0:1:16.730,1
+"['0:1:4.990', '0:1:16.910']","Sorelle, Richard P. (HOU)","So if speaker B1 is the same as you know B2, give me a one here so that I know all this is 1 chunk right. Uh.",0:1:4.990,0:1:16.910,0
+"['0:1:19.360', '0:1:30.980']","Sorelle, Richard P. (HOU)","Yeah, same, you know, and then I just sort of do a fill down so that it just automatically says, you know, if this one is the same as as the last one, give me one.",0:1:19.360,0:1:30.980,0
+"['0:1:30.990', '0:1:33.320']","Sorelle, Richard P. (HOU)","Otherwise, give me a 0 and that way I have.",0:1:30.990,0:1:33.320,0
+"['0:1:33.370', '0:1:38.910']","Sorelle, Richard P. (HOU)","I know that wherever there's a 0, there's a start of a new new chunk of text, right?",0:1:33.370,0:1:38.910,0
+"['0:1:39.680', '0:1:41.320']","Hoang, Nick Vu","OK, I see what you mean.",0:1:39.680,0:1:41.320,1
+"['0:1:40.460', '0:1:42.110']","Sorelle, Richard P. (HOU)",Umm. Yeah.,0:1:40.460,0:1:42.110,0
+"['0:1:42.120', '0:1:44.100']","Sorelle, Richard P. (HOU)","And then second, catenate.",0:1:42.120,0:1:44.100,0
+"['0:1:44.410', '0:1:48.100']","Sorelle, Richard P. (HOU)",Concat why concatenate that run?,0:1:44.410,0:1:48.100,0
+"['0:1:48.110', '0:1:50.320']","Sorelle, Richard P. (HOU)","But anyways, that's right.",0:1:48.110,0:1:50.320,0
+"['0:1:50.330', '0:1:59.960']","Sorelle, Richard P. (HOU)","I was just testing stuff and then I can do, you know, manually go in and say concat, you know the text.",0:1:50.330,0:1:59.960,0
+"['0:1:59.970', '0:2:10.420']","Sorelle, Richard P. (HOU)",So concat see from the zero to the the you know between the the zeros and and concatenate all of that to create one text.,0:1:59.970,0:2:10.420,0
+"['0:2:11.440', '0:2:13.610']","Sorelle, Richard P. (HOU)","Uh, and then manually.",0:2:11.440,0:2:13.610,0
+"['0:2:13.620', '0:2:23.830']","Sorelle, Richard P. (HOU)","You then have to go in and say, OK, you know, merge, merge and center and then edit all these these things into one.",0:2:13.620,0:2:23.830,0
+"['0:2:25.630', '0:2:26.290']","Sorelle, Richard P. (HOU)",One chunk.,0:2:25.630,0:2:26.290,0
+"['0:2:26.340', '0:2:27.840']","Hoang, Nick Vu",Or body attacks OK.,0:2:26.340,0:2:27.840,1
+"['0:2:28.270', '0:2:28.860']","Sorelle, Richard P. (HOU)",Yeah.,0:2:28.270,0:2:28.860,0
+"['0:2:28.930', '0:2:31.530']","Sorelle, Richard P. (HOU)",And then you can convert it back to a table.,0:2:28.930,0:2:31.530,0
+"['0:2:33.220', '0:2:35.870']","Sorelle, Richard P. (HOU)",Can and then convert it from from a table.,0:2:33.220,0:2:35.870,0
+"['0:2:35.880', '0:2:36.270']","Sorelle, Richard P. (HOU)",You can.,0:2:35.880,0:2:36.270,0
+"['0:2:36.350', '0:2:36.690']","Sorelle, Richard P. (HOU)",Yeah.,0:2:36.350,0:2:36.690,0
+"['0:2:36.700', '0:2:40.350']","Sorelle, Richard P. (HOU)",Then you can convert it back into a table and and word convert it from a.,0:2:36.700,0:2:40.350,0
+"['0:2:48.780', '0:2:49.0']","Hoang, Nick Vu",OK.,0:2:48.780,0:2:49.0,1
+"['0:2:42.600', '0:2:49.990']","Sorelle, Richard P. (HOU)",Table in Word to back to text and it'll be paragraphs and the final result.,0:2:42.600,0:2:49.990,0
+"['0:2:50.50', '0:2:51.300']","Sorelle, Richard P. (HOU)",Let's find a clean one.,0:2:50.50,0:2:51.300,0
+"['0:2:52.520', '0:2:53.580']","Sorelle, Richard P. (HOU)","Obviously, you know.",0:2:52.520,0:2:53.580,0
+"['0:2:55.270', '0:2:56.630']","Sorelle, Richard P. (HOU)",Looks something like.,0:2:55.270,0:2:56.630,0
+"['0:3:4.280', '0:3:6.420']","Sorelle, Richard P. (HOU)","You know, like this.",0:3:4.280,0:3:6.420,0
+"['0:3:6.640', '0:3:6.880']","Hoang, Nick Vu",Umm.,0:3:6.640,0:3:6.880,1
+"['0:3:6.430', '0:3:6.940']","Sorelle, Richard P. (HOU)",So.,0:3:6.430,0:3:6.940,0
+"['0:3:7.330', '0:3:12.880']","Sorelle, Richard P. (HOU)","So the only thing the only timestamp, the ones getting preserved is the the first timestamp from.",0:3:7.330,0:3:12.880,0
+"['0:3:13.460', '0:3:18.840']","Sorelle, Richard P. (HOU)","So like this one, you know, at the end of the day when I'm converting it back, I'll probably just get rid of all this.",0:3:13.460,0:3:18.840,0
+"['0:3:19.800', '0:3:21.390']","Sorelle, Richard P. (HOU)",And then you know what I'm saying?,0:3:19.800,0:3:21.390,0
+"['0:3:20.390', '0:3:23.30']","Hoang, Nick Vu",OK. Yes.,0:3:20.390,0:3:23.30,1
+"['0:3:22.90', '0:3:26.270']","Sorelle, Richard P. (HOU)",So I'm not even sure if the merge and center step is necessary.,0:3:22.90,0:3:26.270,0
+"['0:3:44.900', '0:3:45.120']","Hoang, Nick Vu",Umm.,0:3:44.900,0:3:45.120,1
+"['0:3:29.420', '0:3:45.640']","Sorelle, Richard P. (HOU)","But in any case, so that way you just have the timestamp, the speaker and timestamp, and the and the speaker from the first line first row and then the concatenated whatever, and then you can get rid of the extraneous rows really, and that might be easy.",0:3:29.420,0:3:45.640,0
+"['0:3:45.650', '0:3:47.340']","Sorelle, Richard P. (HOU)",Easiest. Umm.,0:3:45.650,0:3:47.340,0
+"['0:3:47.570', '0:3:48.250']","Hoang, Nick Vu",OK.,0:3:47.570,0:3:48.250,1
+"['0:3:49.60', '0:3:59.80']","Hoang, Nick Vu","And so within this, so this is just wrangling the data into a format that you can actually just read through now.",0:3:49.60,0:3:59.80,1
+"['0:3:58.880', '0:3:59.80']","Sorelle, Richard P. (HOU)",Yeah.,0:3:58.880,0:3:59.80,0
+"['0:3:59.170', '0:4:3.710']","Hoang, Nick Vu",So now we're getting onto conversations about kind of like.,0:3:59.170,0:4:3.710,1
+"['0:4:6.900', '0:4:7.770']","Hoang, Nick Vu",Hey guys.,0:4:6.900,0:4:7.770,1
+"['0:4:17.890', '0:4:18.490']","Sorelle, Richard P. (HOU)","I mean, that's.",0:4:17.890,0:4:18.490,0
+"['0:4:8.200', '0:4:18.520']","Hoang, Nick Vu","This is the bulk of kind of like actually manually going through and kind of filtering out, kind of like any typos that the.",0:4:8.200,0:4:18.520,1
+"['0:4:22.700', '0:4:22.950']","Hoang, Nick Vu",OK.,0:4:22.700,0:4:22.950,1
+"['0:4:18.500', '0:4:31.410']","Sorelle, Richard P. (HOU)","Yeah, that part, that parts pretty much manual because because ultimately someone someone really needs to sit down and listen to the recording because obviously the the teams transcription is not 100%.",0:4:18.500,0:4:31.410,0
+"['0:4:33.450', '0:4:33.650']","Sorelle, Richard P. (HOU)",And.,0:4:33.450,0:4:33.650,0
+"['0:4:35.380', '0:4:37.210']","Sorelle, Richard P. (HOU)",So if we can find a reason.,0:4:35.380,0:4:37.210,0
+"['0:4:38.640', '0:4:39.130']","Sorelle, Richard P. (HOU)","No, I don't.",0:4:38.640,0:4:39.130,0
+"['0:4:39.140', '0:4:41.900']","Sorelle, Richard P. (HOU)","I don't see a good typo in the in the transcript of this, but.",0:4:39.140,0:4:41.900,0
+"['0:4:43.70', '0:4:43.440']","Hoang, Nick Vu",OK. Yeah.,0:4:43.70,0:4:43.440,1
+"['0:4:43.730', '0:4:45.490']","Sorelle, Richard P. (HOU)","I mean, I I have a tendency to mumble.",0:4:43.730,0:4:45.490,0
+"['0:4:59.330', '0:4:59.560']","Hoang, Nick Vu",Umm.,0:4:59.330,0:4:59.560,1
+"['0:4:47.100', '0:5:3.230']","Sorelle, Richard P. (HOU)","We've been very fortunate that the folks that we've been interviewing lately, I think because their leadership they they know to get on teams and and enunciate and be very clear, they don't ramble too much, they do a bit, but they're not terrible.",0:4:47.100,0:5:3.230,0
+"['0:5:3.240', '0:5:8.150']","Sorelle, Richard P. (HOU)","I do know that when we start getting into focus groups, it teams are gonna have a hard time keeping up.",0:5:3.240,0:5:8.150,0
+"['0:5:8.160', '0:5:14.910']","Sorelle, Richard P. (HOU)",And so that's that stuff is just kind of manual that really is someone listening to a transcript and and editing typos.,0:5:8.160,0:5:14.910,0
+"['0:5:15.250', '0:5:23.190']","Sorelle, Richard P. (HOU)","And I mean, once we do this process that we've just gone over, the only thing that that I think could still be.",0:5:15.250,0:5:23.190,0
+"['0:5:25.470', '0:5:27.660']","Sorelle, Richard P. (HOU)",And let's go to the this might help better.,0:5:25.470,0:5:27.660,0
+"['0:5:27.910', '0:5:28.950']","Sorelle, Richard P. (HOU)",The only thing that could still be.,0:5:27.910,0:5:28.950,0
+"['0:5:30.710', '0:5:37.400']","Sorelle, Richard P. (HOU)",Maybe automated is that when you can concatenate these if if you know?,0:5:30.710,0:5:37.400,0
+"['0:5:39.700', '0:5:50.620']","Sorelle, Richard P. (HOU)","Uh, like you know, you see here it says get period and then your is like if you could get rid of the the excess punctuation and make you know just for to make it more clear when we're reading through as a paragraph.",0:5:39.700,0:5:50.620,0
+"['0:5:51.780', '0:5:52.20']","Hoang, Nick Vu",OK.,0:5:51.780,0:5:52.20,1
+"['0:5:51.550', '0:5:54.740']","Sorelle, Richard P. (HOU)","Umm, but I I don't know how many.",0:5:51.550,0:5:54.740,0
+"['0:5:54.750', '0:5:55.0']","Sorelle, Richard P. (HOU)",How?,0:5:54.750,0:5:55.0,0
+"['0:5:55.10', '0:6:3.980']","Sorelle, Richard P. (HOU)","I don't know if there is any instances where when it cuts off in between, you know, like if it's actually cutting off the end of a sentence or not.",0:5:55.10,0:6:3.980,0
+"['0:6:5.400', '0:6:5.620']","Hoang, Nick Vu",Umm.,0:6:5.400,0:6:5.620,1
+"['0:6:3.990', '0:6:7.290']","Sorelle, Richard P. (HOU)","Sometimes it is, sometimes it's not, so I'm not sure if you have a good way to figure that out, but.",0:6:3.990,0:6:7.290,0
+"['0:6:11.160', '0:6:12.910']","Hoang, Nick Vu",I think I'll definitely have to play your own.,0:6:11.160,0:6:12.910,1
+"['0:6:12.920', '0:6:14.400']","Hoang, Nick Vu","The heuristics, kind of.",0:6:12.920,0:6:14.400,1
+"['0:6:14.980', '0:6:15.200']","Sorelle, Richard P. (HOU)",Umm.,0:6:14.980,0:6:15.200,0
+"['0:6:15.530', '0:6:17.320']","Hoang, Nick Vu",I mean definitely the.,0:6:15.530,0:6:17.320,1
+"['0:6:20.20', '0:6:20.810']","Hoang, Nick Vu","Because, yeah, yes.",0:6:20.20,0:6:20.810,1
+"['0:6:34.710', '0:6:35.120']","Sorelle, Richard P. (HOU)",Umm.,0:6:34.710,0:6:35.120,0
+"['0:6:20.820', '0:6:46.560']","Hoang, Nick Vu","I'm not a linguistics specialist, but I definitely do have a good kind of idea of how I would tackle this problem with, especially with kind of with the initial data manipulation, it seems yeah, the first parts of kind of like I'm getting the data from it's raw transcript to kind of that nice outfit that you have.",0:6:20.820,0:6:46.560,1
+"['0:6:46.570', '0:6:48.670']","Hoang, Nick Vu",That's definitely a A comparable task.,0:6:46.570,0:6:48.670,1
+"['0:6:48.990', '0:6:49.200']","Sorelle, Richard P. (HOU)",Umm.,0:6:48.990,0:6:49.200,0
+"['0:6:49.220', '0:6:57.680']","Hoang, Nick Vu","Now I think I would definitely kind of have to have additional conversation just to like run with you with kind of like, yeah, kind of cleaning up those additional.",0:6:49.220,0:6:57.680,1
+"['0:6:59.390', '0:7:0.340']","Hoang, Nick Vu",Stop.,0:6:59.390,0:7:0.340,1
+"['0:7:2.980', '0:7:3.310']","Sorelle, Richard P. (HOU)",Mm-hmm.,0:7:2.980,0:7:3.310,0
+"['0:7:4.530', '0:7:4.780']","Sorelle, Richard P. (HOU)",You know.,0:7:4.530,0:7:4.780,0
+"['0:7:0.970', '0:7:7.60']","Hoang, Nick Vu","Stop words and punctuations, but that would just need probably's eyes to.",0:7:0.970,0:7:7.60,1
+"['0:7:7.450', '0:7:9.510']","Hoang, Nick Vu",But that's definitely something I can look into.,0:7:7.450,0:7:9.510,1
+"['0:7:10.10', '0:7:17.690']","Sorelle, Richard P. (HOU)","I honestly, if you can just do that first part that cuts you know, hours out of doing doing this you know long term.",0:7:10.10,0:7:17.690,0
+"['0:7:17.700', '0:7:19.710']","Sorelle, Richard P. (HOU)",So that would be fantastic.,0:7:17.700,0:7:19.710,0
+"['0:7:20.860', '0:7:21.60']","Hoang, Nick Vu",OK.,0:7:20.860,0:7:21.60,1
+"['0:7:20.370', '0:7:22.450']","Sorelle, Richard P. (HOU)",Just getting it to where it's a cleaner output.,0:7:20.370,0:7:22.450,0
+"['0:7:22.460', '0:7:27.170']","Sorelle, Richard P. (HOU)",We can start there and then we can play with some of the more complex like fun stuff later.,0:7:22.460,0:7:27.170,0
+"['0:7:27.180', '0:7:34.950']","Sorelle, Richard P. (HOU)","But yeah, if if if you have a idea in your head to run with that, that would be great. So.",0:7:27.180,0:7:34.950,0
+"['0:7:36.130', '0:7:36.860']","Hoang, Nick Vu",Sure.,0:7:36.130,0:7:36.860,1
+"['0:7:36.990', '0:7:37.110']","Sorelle, Richard P. (HOU)",Yeah.,0:7:36.990,0:7:37.110,0
+"['0:7:37.370', '0:7:46.290']","Hoang, Nick Vu",I think that what what would be most helpful for getting me started would just definitely outlining kind of the workflow from.,0:7:37.370,0:7:46.290,1
+"['0:7:47.650', '0:7:48.880']","Hoang, Nick Vu",Downloading.,0:7:47.650,0:7:48.880,1
+"['0:7:52.700', '0:7:53.90']","Sorelle, Richard P. (HOU)",Umm.,0:7:52.700,0:7:53.90,0
+"['0:7:48.930', '0:7:57.260']","Hoang, Nick Vu","Where do you download the the transcripts from and ultimately, where do you need them to be at the end of the day?",0:7:48.930,0:7:57.260,1
+"['0:8:5.480', '0:8:5.700']","Hoang, Nick Vu",Umm.,0:8:5.480,0:8:5.700,1
+"['0:7:57.940', '0:8:13.840']","Sorelle, Richard P. (HOU)","Uh, so they're downloaded from initially teams, so when we finish this call, for example, uh, I guess because I'm recording, it'll in in my chat log, it'll say in a transcript ready and I'll download it.",0:7:57.940,0:8:13.840,0
+"['0:8:14.330', '0:8:23.940']","Sorelle, Richard P. (HOU)","And usually with these with these interviews, what I do is I go and I save them here, I give them a name.",0:8:14.330,0:8:23.940,0
+"['0:8:25.450', '0:8:25.650']","Hoang, Nick Vu",OK.,0:8:25.450,0:8:25.650,1
+"['0:8:30.310', '0:8:30.690']","Hoang, Nick Vu",Umm.,0:8:30.310,0:8:30.690,1
+"['0:8:25.330', '0:8:34.230']","Sorelle, Richard P. (HOU)","So, so transcript, underscore site, the site number and then underscore participant number and then uh, the day's date.",0:8:25.330,0:8:34.230,0
+"['0:8:35.310', '0:8:43.340']","Sorelle, Richard P. (HOU)","And I I I just do it in this format cause it's easy to type but it also you know year, month, day keeps it in order for the computer.",0:8:35.310,0:8:43.340,0
+"['0:8:44.760', '0:8:44.940']","Hoang, Nick Vu",OK.,0:8:44.760,0:8:44.940,1
+"['0:8:43.350', '0:8:45.330']","Sorelle, Richard P. (HOU)",So that I can always kind of track some of that stuff.,0:8:43.350,0:8:45.330,0
+"['0:8:48.820', '0:8:51.920']","Sorelle, Richard P. (HOU)",And then where it should wind up?,0:8:48.820,0:8:51.920,0
+"['0:8:51.930', '0:8:53.940']","Sorelle, Richard P. (HOU)",So that's the uncleaned folder.,0:8:51.930,0:8:53.940,0
+"['0:8:54.380', '0:8:54.500']","Hoang, Nick Vu",Yeah.,0:8:54.380,0:8:54.500,1
+"['0:8:53.950', '0:8:55.720']","Sorelle, Richard P. (HOU)",That's just where raw transcripts go.,0:8:53.950,0:8:55.720,0
+"['0:9:0.530', '0:9:0.730']","Hoang, Nick Vu",OK.,0:9:0.530,0:9:0.730,1
+"['0:8:56.490', '0:9:8.280']","Sorelle, Richard P. (HOU)","Ultimately, when it's done, it should just be out here in this folder and it should have clean or cleaned or some version of that at the end of the file name, just to to denote that that's the the final version to be used.",0:8:56.490,0:9:8.280,0
+"['0:9:12.20', '0:9:12.220']","Hoang, Nick Vu",OK.,0:9:12.20,0:9:12.220,1
+"['0:9:15.140', '0:9:16.430']","Hoang, Nick Vu",That sounds good.,0:9:15.140,0:9:16.430,1
+"['0:9:16.480', '0:9:19.810']","Hoang, Nick Vu","OK, that definitely gives me a good start.",0:9:16.480,0:9:19.810,1
+"['0:9:20.120', '0:9:20.440']","Sorelle, Richard P. (HOU)",Welcome.,0:9:20.120,0:9:20.440,0
+"['0:9:20.240', '0:9:22.10']","Hoang, Nick Vu",I can play around with.,0:9:20.240,0:9:22.10,1
+"['0:9:22.100', '0:9:24.530']","Hoang, Nick Vu","I mean, I was kind of looking today.",0:9:22.100,0:9:24.530,1
+"['0:9:29.430', '0:9:29.640']","Sorelle, Richard P. (HOU)",Umm.,0:9:29.430,0:9:29.640,0
+"['0:9:24.540', '0:9:39.210']","Hoang, Nick Vu","There's definitely modules that can manipulate all those, and I can definitely let's say let me give you a tangible dateline because that seems pretty accomplishable.",0:9:24.540,0:9:39.210,1
+"['0:9:43.830', '0:9:44.50']","Sorelle, Richard P. (HOU)",OK.,0:9:43.830,0:9:44.50,0
+"['0:9:56.720', '0:9:56.980']","Sorelle, Richard P. (HOU)",OK.,0:9:56.720,0:9:56.980,0
+"['0:9:57.80', '0:9:57.570']","Hoang, Nick Vu",That sounds good.,0:9:57.80,0:9:57.570,1
+"['0:9:57.980', '0:9:58.630']","Sorelle, Richard P. (HOU)",Yeah.,0:9:57.980,0:9:58.630,0
+"['0:9:58.720', '0:10:3.670']","Sorelle, Richard P. (HOU)",Do you have access to the M drive location where these transcripts are stored?,0:9:58.720,0:10:3.670,0
+"['0:10:6.840', '0:10:7.140']","Sorelle, Richard P. (HOU)",OK.,0:10:6.840,0:10:7.140,0
+"['0:10:3.450', '0:10:16.290']","Hoang, Nick Vu","I don't, I don't think so, but I could definitely just try and if you send me this, the transcript of the one that we're having right now and I guess like let's see.",0:10:3.450,0:10:16.290,1
+"['0:10:16.150', '0:10:19.980']","Sorelle, Richard P. (HOU)","I have to uh, so I have to leave the transcripts here like clean ones.",0:10:16.150,0:10:19.980,0
+"['0:10:21.280', '0:10:21.490']","Hoang, Nick Vu",Mm-hmm.,0:10:21.280,0:10:21.490,1
+"['0:10:19.990', '0:10:25.490']","Sorelle, Richard P. (HOU)","I could send you, but the the uncleaned ones I can't because it's data.",0:10:19.990,0:10:25.490,0
+"['0:10:31.180', '0:10:34.150']","Hoang, Nick Vu","OK, not or even the one.",0:10:31.180,0:10:34.150,1
+"['0:10:38.500', '0:10:38.720']","Hoang, Nick Vu",OK.,0:10:38.500,0:10:38.720,1
+"['0:10:25.500', '0:10:40.690']","Sorelle, Richard P. (HOU)",So let me get you added to this folder and then that way you can you can you that way you can access it and you can play with an actual play with some of the actual stuff.,0:10:25.500,0:10:40.690,0
+"['0:10:40.740', '0:10:41.410']","Sorelle, Richard P. (HOU)",We just can't.,0:10:40.740,0:10:41.410,0
+"['0:10:41.420', '0:10:47.570']","Sorelle, Richard P. (HOU)","We can't take it out of that that shared folder because we're not, we're not allowed to.",0:10:41.420,0:10:47.570,0
+"['0:10:49.130', '0:10:49.810']","Hoang, Nick Vu",Gotcha.,0:10:49.130,0:10:49.810,1
+"['0:10:47.640', '0:10:55.610']","Sorelle, Richard P. (HOU)","So because it's data and it's even deidentified, it's kind of still technically identifiable data in some ways.",0:10:47.640,0:10:55.610,0
+"['0:10:55.620', '0:10:59.230']","Sorelle, Richard P. (HOU)","So we don't, I don't like to take him out.",0:10:55.620,0:10:59.230,0
+"['0:10:59.300', '0:11:5.460']","Sorelle, Richard P. (HOU)","Hopefully, since you're already in the system, it shouldn't be difficult to get you added to the folder.",0:10:59.300,0:11:5.460,0
+"['0:11:6.460', '0:11:7.260']","Sorelle, Richard P. (HOU)",Umm so.,0:11:6.460,0:11:7.260,0
+"['0:11:6.920', '0:11:13.170']","Hoang, Nick Vu","OK and ohh yeah and quick clarification, I meant sorry the eventually yes that would be great.",0:11:6.920,0:11:13.170,1
+"['0:11:14.80', '0:11:21.900']","Hoang, Nick Vu","I think for me tinkering with the data, if it's quicker just to transcribe I I guess the audio transcript.",0:11:14.80,0:11:21.900,1
+"['0:11:21.910', '0:11:23.950']","Hoang, Nick Vu",I've just the meeting that we're having right now.,0:11:21.910,0:11:23.950,1
+"['0:11:24.50', '0:11:24.540']","Hoang, Nick Vu",Would that work?,0:11:24.50,0:11:24.540,1
+"['0:11:24.270', '0:11:26.60']","Sorelle, Richard P. (HOU)","Oh, yeah, yeah, yeah, that works fine.",0:11:24.270,0:11:26.60,0
+"['0:11:26.70', '0:11:28.150']","Sorelle, Richard P. (HOU)",We can send that wherever so yeah.,0:11:26.70,0:11:28.150,0
+"['0:11:28.420', '0:11:31.710']","Hoang, Nick Vu","Yeah, that would be great if you could share that with me.",0:11:28.420,0:11:31.710,1
+"['0:11:32.130', '0:11:34.100']","Sorelle, Richard P. (HOU)",Umm cool.,0:11:32.130,0:11:34.100,0
+"['0:11:31.720', '0:11:36.870']","Hoang, Nick Vu",Then I could start playing around with that and so I can get an idea of just how to work with the structure.,0:11:31.720,0:11:36.870,1
+"['0:11:37.500', '0:11:37.660']","Sorelle, Richard P. (HOU)",Yeah.,0:11:37.500,0:11:37.660,0
+"['0:11:38.560', '0:11:38.850']","Sorelle, Richard P. (HOU)",Perfect.,0:11:38.560,0:11:38.850,0
+"['0:11:40.650', '0:11:40.970']","Sorelle, Richard P. (HOU)",All right.,0:11:40.650,0:11:40.970,0
+"['0:11:39.920', '0:11:41.280']","Hoang, Nick Vu","OK, sounds good.",0:11:39.920,0:11:41.280,1
+"['0:11:41.780', '0:11:42.0']","Sorelle, Richard P. (HOU)",Alright.,0:11:41.780,0:11:42.0,0
+"['0:11:42.10', '0:11:42.490']","Sorelle, Richard P. (HOU)",Thanks nick.,0:11:42.10,0:11:42.490,0
+"['0:11:43.640', '0:11:44.430']","Hoang, Nick Vu",No problem.,0:11:43.640,0:11:44.430,1
+"['0:11:44.500', '0:11:52.490']","Hoang, Nick Vu",I'll definitely get those to you according to the outline dates I have.,0:11:44.500,0:11:52.490,1
+"['0:11:52.500', '0:11:53.780']","Hoang, Nick Vu","OK, sounds great.",0:11:52.500,0:11:53.780,1
+"['0:11:53.90', '0:11:53.800']","Sorelle, Richard P. (HOU)","All right, great.",0:11:53.90,0:11:53.800,0
+"['0:11:53.790', '0:11:54.890']","Hoang, Nick Vu",You have a good rest of your day.,0:11:53.790,0:11:54.890,1
+"['0:11:55.180', '0:11:55.770']","Sorelle, Richard P. (HOU)","Alright, thanks.",0:11:55.180,0:11:55.770,0
+"['0:11:56.180', '0:11:56.790']","Sorelle, Richard P. (HOU)","Yeah, no problem.",0:11:56.180,0:11:56.790,0
+"['0:11:54.980', '0:11:57.510']","Hoang, Nick Vu",Thank you for meeting with me. I.,0:11:54.980,0:11:57.510,1
+"['0:11:56.800', '0:11:57.570']","Sorelle, Richard P. (HOU)",Thanks. Bye.,0:11:56.800,0:11:57.570,0
