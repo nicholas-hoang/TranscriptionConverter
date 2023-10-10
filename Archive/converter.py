@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from docx import Document
 from docx.shared import Inches
-import main_gui
+import app
 
 
 def docx_to_txt(file):
@@ -169,7 +169,7 @@ def write_to_word_doc(concatenated_data, filename):
     document.save(filename)
 
 
-def main(file_path):
+def app(file_path):
     df = docx_to_txt(file_path)
     df = format_table(df)
     df, speakers_dictionary = map_speakers(df)
