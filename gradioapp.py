@@ -89,18 +89,11 @@ class TranscriptionConverter:
         document.save(filename)
 
     def convert_and_write(self):
-        # Get the user's Downloads folder path
-        downloads_folder = expanduser("~") + "/Downloads"
-        # Create the complete file path in the Downloads folder
-
         # Extract the original file name without the extension
         original_file_name = os.path.splitext(os.path.basename(self.file_path))[0]
 
         # Append the desired suffix and date to the original file name
         output_file_name = f"{original_file_name}-CLEANED-{datetime.datetime.now().strftime('%Y-%m-%d')}"
-
-        # Create the complete file path in the Downloads folder
-        output_file_path = os.path.join(downloads_folder, output_file_name + ".docx")
 
         df = self.docx_to_txt()
         df = self.format_table(df)
@@ -108,7 +101,7 @@ class TranscriptionConverter:
         concatenated_data = self.concatenate_text_with_timestamp_and_speaker_by_label(
             df
         )
-        self.write_to_word_doc(concatenated_data, output_file_path)
+        self.write_to_word_doc(concatenated_data, output_file_name)
 
 
 def process_transcription(file):
@@ -121,16 +114,16 @@ def process_transcription(file):
     concatenated_data = converter.concatenate_text_with_timestamp_and_speaker_by_label(
         df
     )
-    output_file_name = f"CLEANED-{datetime.datetime.now().strftime('%Y-%m-%d')}.docx"
-    output_file_path = os.path.join(expanduser("~") + "/Downloads", output_file_name)
-    converter.write_to_word_doc(concatenated_data, output_file_path)
-    return output_file_path
+    output_file_name = f"{file_path}_CLEANED_{datetime.datetime.now().strftime('%Y-%m-%d')}.docx"
+
+    converter.write_to_word_doc(concatenated_data, output_file_name)
+    return output_file_name
 
 
 iface = gr.Interface(
     fn=process_transcription,
-    inputs=gr.inputs.File(label="Upload your DOCX file"),
-    outputs=gr.outputs.File(label="Download cleaned transcript"),
+    inputs=gr.File(label="Upload your DOCX file"),
+    outputs=gr.File(label="Download cleaned transcript"),
 )
 
 iface.launch(share=True)
