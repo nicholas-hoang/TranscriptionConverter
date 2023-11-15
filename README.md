@@ -21,10 +21,10 @@ The application processes the meeting transcription in the following steps:
 - Download: Users can download the cleaned transcription file.
 
 ## Requirements
-Python 3.x
-Gradio
-python-docx
-pandas
+- Python 3.11.x 
+- Gradio
+- python-docx
+- pandas
 
 ## Installation
 
