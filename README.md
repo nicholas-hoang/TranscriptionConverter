@@ -4,11 +4,11 @@ The Meeting Transcription Cleaner is a Python application that takes a DOCX file
 
 ## Usage
 
-Upload File: Click on the "Upload your DOCX file" button to upload your meeting transcription file in DOCX format.
+**Upload File:** Click on the "Upload your DOCX file" button to upload your meeting transcription file in DOCX format.
 
-Processing: The application processes the uploaded file, cleans the transcript data, and generates a new DOCX file with the cleaned transcription.
+**Processing:** The application processes the uploaded file, cleans the transcript data, and generates a new DOCX file with the cleaned transcription.
 
-Download: Once the processing is complete, click on the "Download cleaned transcript" button to download the cleaned transcript DOCX file.
+**Download:** Once the processing is complete, click on the "Download cleaned transcript" button to download the cleaned transcript DOCX file.
 
 ## How It Works
 
@@ -29,21 +29,19 @@ pandas
 
 Clone the repository:
 
-bash
-Copy code
+```bash
 git clone <https://github.com/your-username/meeting-transcription-cleaner.git>
+```
 Install the required packages:
-
-Copy code
+```bash
 pip install gradio python-docx pandas
+```
 Run the application:
-
-Copy code
+```bash
 python app.py
-Contributors
-Your Name
-Contributor 1 Name
-Contributor 2 Name
+```
+## Contributors
+Nick Hoang
 
 ## License
 
