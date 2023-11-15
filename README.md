@@ -39,7 +39,7 @@ pip install gradio python-docx pandas
 ```
 Run the application:
 ```bash
-python app.py
+python gradioapp.py
 ```
 ## Contributors
 Nick Hoang
