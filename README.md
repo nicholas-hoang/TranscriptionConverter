@@ -14,12 +14,13 @@ The Meeting Transcription Cleaner is a Python application that takes a DOCX file
 
 The application processes the meeting transcription in the following steps:
 
-Upload: Users upload a DOCX file containing meeting transcriptions.
-Processing: The application processes the DOCX file, extracting text data.
-Cleaning: The text data is cleaned and formatted, including splitting the text into speakers, timestamps, and actual text content.
-Output: The cleaned transcription data is saved into a new DOCX file.
-Download: Users can download the cleaned transcription file.
-Requirements
+- Upload: Users upload a DOCX file containing meeting transcriptions.
+- Processing: The application processes the DOCX file, extracting text data.
+- Cleaning: The text data is cleaned and formatted, including splitting the text into speakers, timestamps, and actual text content.
+- Output: The cleaned transcription data is saved into a new DOCX file.
+- Download: Users can download the cleaned transcription file.
+
+## Requirements
 Python 3.x
 Gradio
 python-docx
