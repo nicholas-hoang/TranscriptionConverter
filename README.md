@@ -31,7 +31,7 @@ The application processes the meeting transcription in the following steps:
 Clone the repository:
 
 ```bash
-git clone https://github.com/nvh232/meeting-transcription-cleaner.git
+git clone https://github.com/nvh232/TranscriptionConverter.git
 ```
 Install the required packages:
 ```bash
