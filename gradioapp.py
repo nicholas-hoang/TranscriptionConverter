@@ -126,4 +126,4 @@ iface = gr.Interface(
     outputs=gr.File(label="Download cleaned transcript"),
 )
 
-iface.launch(share=True)
+iface.launch()
