@@ -1,6 +1,6 @@
 # Meeting Transcription Cleaner
 
-The Meeting Transcription Cleaner is a Python application that takes a DOCX file containing meeting transcriptions, processes the data, and provides a cleaned transcript. It uses the Gradio library for the user interface and python-docx for handling DOCX files.
+The Meeting Transcription Cleaner is a Python application that takes a DOCX (MS Word Document) file containing meeting transcriptions, processes the data, and provides a cleaned transcript. It uses the Gradio library for the user interface and python-docx for handling DOCX files.
 
 ## Usage
 
