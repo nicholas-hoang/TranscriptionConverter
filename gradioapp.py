@@ -1,9 +1,33 @@
+import os
+from os.path import expanduser
 import gradio as gr
 from docx import Document
 import pandas as pd
-import os
-from os.path import expanduser
 import datetime
+
+"""
+gradioapp.py
+------------
+This script provides a Gradio interface for processing transcriptions in DOCX format.
+It includes a class `TranscriptionConverter` that handles the conversion of the transcription
+from DOCX to a cleaned format, and a main function that sets up and launches the Gradio interface.
+
+Classes:
+--------
+TranscriptionConverter: Handles the conversion of transcriptions from DOCX to a cleaned format.
+
+Functions:
+----------
+process_transcription(file): Processes the uploaded transcription file and returns the path of the cleaned output file.
+
+main(): Sets up and launches the Gradio interface.
+
+Usage:
+------
+This script is intended to be run as a standalone script. It will launch a Gradio interface
+that allows the user to upload a DOCX file, which will then be processed and cleaned.
+The cleaned transcription can then be downloaded through the Gradio interface.
+"""
 
 
 class TranscriptionConverter:
@@ -114,16 +138,22 @@ def process_transcription(file):
     concatenated_data = converter.concatenate_text_with_timestamp_and_speaker_by_label(
         df
     )
-    output_file_name = f"{file_path}_CLEANED_{datetime.datetime.now().strftime('%Y-%m-%d')}.docx"
+    output_file_name = (
+        f"{file_path}_CLEANED_{datetime.datetime.now().strftime('%Y-%m-%d')}.docx"
+    )
 
     converter.write_to_word_doc(concatenated_data, output_file_name)
     return output_file_name
 
 
-iface = gr.Interface(
-    fn=process_transcription,
-    inputs=gr.File(label="Upload your DOCX file"),
-    outputs=gr.File(label="Download cleaned transcript"),
-)
+def main():
+    iface = gr.Interface(
+        fn=process_transcription,
+        inputs=gr.File(label="Upload your DOCX file"),
+        outputs=gr.File(label="Download cleaned transcript"),
+    )
+    iface.launch()
 
-iface.launch()
+
+if __name__ == "__main__":
+    main()
